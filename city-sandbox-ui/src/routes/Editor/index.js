@@ -1,5 +1,11 @@
+import Map from './Map';
+
 const Editor = () => {
-  return <div>Editor</div>;
+  return (
+    <div style={{height: '100vh'}}>
+      <Map />
+    </div>
+  );
 };
 
 export default Editor;

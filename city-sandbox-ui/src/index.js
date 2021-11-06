@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'mapbox-gl/dist/mapbox-gl.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {ThemeProvider} from '@mui/material';
 import theme from './theme';
+import mapboxgl from 'mapbox-gl';
+
+mapboxgl.accessToken =
+  'pk.eyJ1Ijoia21vc2VzMjgiLCJhIjoiY2t2bjRtam96MzltZjJubnUwOWI0emdqaSJ9.5YgHVWJlQhyzgwOYgCvugw';
 
 ReactDOM.render(
   <React.StrictMode>
